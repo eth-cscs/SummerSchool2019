@@ -1,0 +1,5 @@
+*.o
+main
+*.bin
+*.bov
+*.png
