@@ -1,4 +1,4 @@
-# CSCS HPC Summer School 2018
+# CSCS HPC Summer School 2019
 
 This repository contains the materials used in the Summer School, including source code, lecture notes and slides.
 Material will be added to the repository throughout the course, which will require that students either update their copy of the repository, or download/checkout a new copy of the repository.
@@ -26,7 +26,7 @@ cd $SCRATCH
 # it is a good policy to put it in a personal path
 mkdir johnsmith
 cd johnsmith
-git clone https://github.com/eth-cscs/SummerSchool2018.git
+git clone https://github.com/eth-cscs/SummerSchool2019.git
 ```
 
 ## Updating the repository
