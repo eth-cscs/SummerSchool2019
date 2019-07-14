@@ -3,3 +3,5 @@ main
 *.bin
 *.bov
 *.png
+
+unit_tests
