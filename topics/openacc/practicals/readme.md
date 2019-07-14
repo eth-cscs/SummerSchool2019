@@ -1,6 +1,6 @@
 # OpenACC practical exercises
 
-- Both Cray and PGI compilers are supported.
+- Exercises are tested with the PGI compiler.
 - Compile each example with `make`
 - Run as `srun --reserv=course -Cgpu <exec-name> [ARRAY_SIZE]`
 
