@@ -9,5 +9,5 @@ This folder contains the following subfolders:
    
    ```bash
    module load reframe
-   reframe --prefix=$SCRATCH/ci -c ci/practical_tests.py --reserv=course -r
+   reframe --prefix=$SCRATCH/ci -c ci/practical_tests.py --reservation=summer_school -r
    ```
