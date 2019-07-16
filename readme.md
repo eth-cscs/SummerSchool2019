@@ -3,6 +3,10 @@
 This repository contains the materials used in the Summer School, including source code, lecture notes and slides.
 Material will be added to the repository throughout the course, which will require that students either update their copy of the repository, or download/checkout a new copy of the repository.
 
+## Announcements
+
+- [Schedule and logistics for Tuesday July 16th](https://github.com/eth-cscs/SummerSchool2019/blob/master/Tuesday%2016th%20schedule.pdf): Travel to Lugano, CSCS visit and Evening event.
+
 ## Getting the repository
 
 ### On your own computer
