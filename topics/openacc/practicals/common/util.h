@@ -25,6 +25,7 @@ static cublasHandle_t get_cublas_handle() {
 
     if(!is_initialized) {
         cublasCreate(&cublas_handle);
+        is_initialized = true;
     }
     return cublas_handle;
 }
