@@ -4,7 +4,7 @@ EXT=f90
 #SUBFIX=_solution
 
 .SUFFIXES: .$(EXT)
-#all: 1 2
+all: 1 2
 
 1: 1.hello$(SUBFIX)
 2: 2.hello_withrank$(SUBFIX)

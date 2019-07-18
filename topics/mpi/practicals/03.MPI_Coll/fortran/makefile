@@ -4,7 +4,7 @@ EXT=f90
 #SUBFIX=_solution
 
 .SUFFIXES: .$(EXT)
-#all: 1 2 3 4
+all: 1 2 3 4
 
 1: 1.broadcast$(SUBFIX)
 2: 2.scatter$(SUBFIX)

@@ -4,7 +4,7 @@ EXT=c
 #SUBFIX=_solution
 
 .SUFFIXES: .$(EXT)
-#all: 1 2 3 4 5 6
+all: 1 2 3 4 5 6
 
 1: 1.simple_send_recv$(SUBFIX)
 2: 2.ping_pong$(SUBFIX)
