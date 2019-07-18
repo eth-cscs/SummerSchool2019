@@ -5,7 +5,7 @@ Material will be added to the repository throughout the course, which will requi
 
 ## Announcements
 
-- [Sunday Hiking Map](https://github.com/eth-cscs/SummerSchool2019/blob/master/Sunday%20Hiking%20Directions.png): Departure 10:30 bus stop in front of Steger Center.
+- [Sunday Hiking Map](https://raw.githubusercontent.com/eth-cscs/SummerSchool2019/master/Sunday%20Hiking%20Directions.png): Departure 10:30 bus stop in front of Steger Center.
 - [Thursday 18th 18:00-19:00]: Guided walking tour of Riva San Vitale by Daniela. Meeting point: Lobby in front of Daniela's office.
 - [Schedule and logistics for Tuesday July 16th](https://github.com/eth-cscs/SummerSchool2019/blob/master/Tuesday%2016th%20schedule.pdf): Travel to Lugano, CSCS visit and Evening event.
 
