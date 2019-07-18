@@ -71,6 +71,7 @@ class GemmExample(OpenACCBaseTest):
         super().__init__()
         self.sourcepath = 'gemm/'
         self.executable = './gemm/gemm.openacc'
+        self.executable_opts = ['11']
         self.num_cpus_per_task = 12
         self.variables = {'OMP_NUM_THREADS': str(self.num_cpus_per_task)}
         self.sanity_patterns = sn.assert_eq(
@@ -101,7 +102,7 @@ def dset(iterable):
     return set(iterable)
 
 
-#@rfm.simple_test
+# @rfm.simple_test
 class ImagePipelineExample(OpenACCBaseTest):
     def __init__(self):
         super().__init__()
@@ -119,7 +120,7 @@ class ImagePipelineExample(OpenACCBaseTest):
         self.tags = {'openacc-training'}
 
 
-#@rfm.parameterized_test(['openacc'], ['openacc+fort'])
+# @rfm.parameterized_test(['openacc'], ['openacc+fort'])
 class DeepcopyExample(OpenACCBaseTest):
     def __init__(self, version):
         super().__init__()
