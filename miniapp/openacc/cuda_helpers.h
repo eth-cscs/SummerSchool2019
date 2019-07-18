@@ -26,8 +26,8 @@ static inline void cuda_check_status(cudaError_t error_code) {
 
 static inline cublasHandle_t& cublas_handle() {
     static cublasHandle_t cublas_handle;
-    static bool is_intialized = false;
-    if(!is_intialized) {
+    static bool is_initialized = false;
+    if(!is_initialized) {
         auto status = cublasCreate(&cublas_handle);
 
         if(status != CUBLAS_STATUS_SUCCESS) {
