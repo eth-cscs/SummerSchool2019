@@ -1,7 +1,7 @@
-CC=ftn
+CC=CC
 CFLAGS=-O3
-EXT=f90
-#SUBFIX=_solution
+EXT=c
+SUBFIX=_solution
 
 .SUFFIXES: .$(EXT)
 all: 1 2 3 4

@@ -3,7 +3,7 @@ NVCC=nvcc
 CFLAGS=-arch=sm_60 -std=c++11 -O2 -lineinfo -I.
 EXT=cu
 LDFLAGS=-lcublas -lcuda
-#SUBFIX=_solution
+SUBFIX=_solution
 
 .SUFFIXES: .$(EXT)
 all: 1
