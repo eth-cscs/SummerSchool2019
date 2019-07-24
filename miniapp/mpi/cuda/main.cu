@@ -197,8 +197,6 @@ int main(int argc, char* argv[])
     Field b(nx,ny);
     Field deltax(nx,ny);
 
-    // create 1-sided windows with boundaries
-
     // TODO: put unit tests here because:
     // * they can then use the buffers and fields allocated for the main application
     // * they won't interfere with the initial conditions, set below
